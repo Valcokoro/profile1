@@ -288,22 +288,23 @@
     }
 
    .mypics{
-       height:300px;
-       width:300px;
-       border-radius: 150px;
+       height:150px;
+       width:150px;
+       border-radius: 1000px;
        margin-top: 30px;
-       margin-left: 50px;
-       height: 270px;
+       margin-left: 120px;
+      
     
    }
    .second{
        background-color:whitesmoke;
-       height:750px;
+       height:700px;
     
    }
    .stack{
        color: orangered;
        margin-left: 80px;
+       font-size: 20px;
        
    }
    .response{
@@ -317,21 +318,21 @@
     max-width:20%;
     height:30px;
     margin-left: -45px;
-    margin-top: 120px;
+    margin-top: 50px;
     
    }
    .desc1{
-    max-width:20%;
+    max-width:70%;
     height:0px;
-    margin-left: 80px;
+    margin-left:80px;
     margin-top:0px;
     padding-top: 10px;
    }
    .desc2{
-    max-width:20%;
+    max-width:70%;
     height:0px;
     margin-left: 80px;
-    margin-top:120px;
+    margin-top:50px;
    }
    .bold1, .bold2{
     color: orangered;
@@ -358,9 +359,9 @@
     width: available;
     height: available;
     position: relative;
-    margin-left: 50%;
-    margin-right: 5%;
-    margin-top: -125px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 80px;
    
    }
 
@@ -527,6 +528,7 @@
   
     .resume{
      margin-top: 20px;
+     margin-left: 60%;
      height:     40px;
      width:      120px;
      border-color: orangered;
