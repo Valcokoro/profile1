@@ -298,7 +298,7 @@
    }
    .second{
        background-color:whitesmoke;
-       height:700px;
+       height:750px;
     
    }
    .stack{
@@ -527,14 +527,15 @@
   
     .resume{
      margin-top: 20px;
-     height:     30px;
+     height:     40px;
      width:      120px;
      border-color: orangered;
+     background-color: orangered;
      border-radius: 6%;
     }
 
     .resume1{
-     color: orangered;
+     color: gainsboro;
      font-size: 15px;
     }
 
