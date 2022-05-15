@@ -528,7 +528,7 @@
   
     .resume{
      margin-top: 20px;
-     margin-left: 60%;
+     margin-left: 65%;
      height:     40px;
      width:      120px;
      border-color: orangered;
@@ -541,8 +541,82 @@
      font-size: 15px;
     }
 
+    .section-head{
+        color:white;
+        text-align: center;
+    }
+
+    .projects{
+        background-color: orangered;
+        height: 800px;
+    }
+
+    .counter{
+        width: 300px;
         
+    }
+
+    .btn-p1{
+      margin-left:40px;
+      height: 180px;
+      background-color: gray;
+    }
+
+    .count-app{
+        margin-top: 10px;
+        color: white;
+        background-color: gray;
+    }
+
+    .youtube{
+      width: 300px;
+      height:100px;
+        
+    }
+
+    .btn-p2{
+      margin-top: 20px;
+      margin-left:40px;
+      height: 150px;
+      background-color: gray;
+    }
+    .vid-streamer{
+        margin-top: 10px;
+        color: white;
+    }
+
+    .google{
+        width: 300px;
+        height:100px;
+    }
+ 
+    .btn-p3{
+        margin-top: 20px;
+        margin-left:40px;
+        height: 150px;
+        background-color: gray;
+      }
+     
+    .g-clone{
+        margin-top: 10px;
+        color: white;
+    }
+
+    .translate{
+        width: 300px;
+        height:100px;
+    }
     
+    .btn-p4{
+        margin-top: 20px;
+        margin-left:40px;
+        height: 150px;
+        background-color: gray;
+      }
+    .lang-trans{
+        margin-top: 10px;
+        color: white;
+    }
         
     
         
