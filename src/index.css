@@ -1,0 +1,570 @@
+ @media(min-width: 480px){
+    .name {
+       font-size: 40px;
+       color: gainsboro;
+       margin-top: 500px;
+       
+    }
+   
+    .motto{
+        margin-top: 80px;
+    }
+    .slogan{
+        font-size: 60px;
+        font-style: italic;
+        color: brown;
+        
+    }
+
+    .idea{
+        height: 300px;
+        width: 300px;
+    }
+
+    .first-section{
+        background-color: orangered;
+        height: 700px;
+    }
+
+    .mypics{
+        height:300px;
+        width:300px;
+        border-radius: 150px;
+        margin-top: 30px;
+        margin-left: 100px;
+        height: 270px;
+        
+    }
+    .second{
+       background-color:whitesmoke;
+       height:600px;
+   }
+   .stack{
+       color:orangered;
+       margin-left: 120px;
+   }
+   .response{
+    max-width:20%;
+    height:80px;
+    margin-left: 50px;
+    
+}
+   .dynamic{
+    max-width:15%;
+    height:50px;
+    margin-left: 60px;
+    margin-top: 10px;
+   }
+   .desc1{
+    max-width:20%;
+    height:80px;
+    margin-left: 135px;
+    margin-top:40px;
+    padding-top: 30px;
+   }
+   .desc2{
+    max-width:20%;
+    height:80px;
+    margin-left: 135px;
+    margin-top:10px;
+    padding-top: 10px;
+   }
+   .bold1, .bold2{
+    color:orangered;
+   }
+   .button{
+       height: 40px;
+       width:140px;
+       margin-top: 100px;
+   }
+   .link{
+    margin-top: -490px;
+    margin-right: 1200px;
+   }
+   .menu{
+    margin-top:-50px;
+   }
+   .rightpane{
+    width: available;
+    height: available;
+    position: relative;
+    margin-left: 50%;
+    margin-right: 5%;
+    margin-top: -500px;
+    color: brown;
+   
+   }
+   .react {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    height: 10px;
+    animation-name: width-change;
+    animation-duration: 4s;
+    
+   }
+   .redux, .javascript, .html, .css, .python, .django{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    height: 10px;
+    animation-name: width-change;
+    animation-duration: 4s;
+   }
+   .react td, .redux td, .javascript td, .html td, 
+   .css td, .python td, .django td {
+    border: 1px none #ddd;
+    padding: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: left;
+    color: white;
+    animation-name: transition;
+    animation-duration: 4s;
+  }
+
+  .react1 {
+    width:40%;
+    background-color: orangered;
+    padding-left:8px;
+   }
+
+   .react2{
+    width:60%;
+    background-color:gainsboro;
+    }
+
+   .react3 {
+    width:25%;
+    text-align: right;
+    background-color: orangered;
+    padding:2px;
+    }
+
+    .rd1 {
+     width:40%;
+     background-color: orangered;
+     padding-left:8px;
+    }
+    
+    .rd2{
+    width:60%;
+    background-color:gainsboro;
+    }
+    
+    .rd3 {
+    width:25%;
+    text-align: right;
+    background-color: orangered;
+    padding:2px;
+    }
+    
+    .js1 {
+        width:45%;
+        background-color: orangered;
+        padding-left:8px;
+       }
+       
+       .js2{
+       width: 55%;
+       background-color:gainsboro;
+       }
+       
+       .js3 {
+       width:25%;
+       text-align: right;
+       background-color: orangered;
+       padding:2px;
+       }
+       
+       .html1 {
+        width:50%;
+        background-color: orangered;
+        padding-left:8px;
+       }
+       
+       .html2{
+       width: 50%;
+       background-color:gainsboro;
+       }
+       
+       .html3 {
+       width:25%;
+       text-align: right;
+       background-color: orangered;
+       padding:2px;
+       }
+       
+       .css1 {
+        width:50%;
+        background-color: orangered;
+        padding-left:8px;
+       }
+       
+       .css2{
+       width: 50%;
+       background-color:gainsboro;
+       }
+       
+       .css3 {
+       width:25%;
+       text-align: right;
+       background-color: orangered;
+       padding:2px;
+       }
+
+       .py1 {
+        width:30%;
+        background-color: orangered;
+        padding-left:8px;
+       }
+       
+       .py2{
+       width: 70%;
+       background-color:gainsboro;
+       }
+       
+       .py3 {
+       width:25%;
+       text-align: right;
+       background-color: orangered;
+       padding:2px;
+       }
+       
+       .dj1 {
+        width:30%;
+        background-color: orangered;
+        padding-left:8px;
+       }
+       
+       .dj2{
+       width: 70%;
+       background-color:gainsboro;
+       }
+       
+       .dj3 {
+       width:25%;
+       text-align: right;
+       background-color: orangered;
+       padding:2px;
+       }
+
+       .resume{
+       margin-top: 50px;
+       height: 50px;
+       width:140px;
+       margin-left: 470px;
+       border-color: orangered;
+       border-radius: 6%;
+       }
+
+       .resume1{
+        color: orangered;
+        font-size: 20px;
+    }
+
+}
+   .motto{
+       font-size: 30px;
+       margin-top:60px;
+}
+
+
+
+@media(max-width: 780px){
+   .first-section{
+       background-color: orangered;
+       height: 520px;
+   }
+   .name {
+    font-size: 30px;
+    color: gainsboro;
+   }
+
+    .slogan{
+       color:brown;
+       font-style: italic;
+    }
+
+   .mypics{
+       height:300px;
+       width:300px;
+       border-radius: 150px;
+       margin-top: 30px;
+       margin-left: 50px;
+       height: 270px;
+    
+   }
+   .second{
+       background-color:whitesmoke;
+       height:700px;
+    
+   }
+   .stack{
+       color: orangered;
+       margin-left: 80px;
+       
+   }
+   .response{
+    max-width:20%;
+    height:50px;
+    margin-left: 30px;
+    margin-top: 0px;
+    
+   }
+   .dynamic{
+    max-width:20%;
+    height:30px;
+    margin-left: -45px;
+    margin-top: 120px;
+    
+   }
+   .desc1{
+    max-width:20%;
+    height:0px;
+    margin-left: 80px;
+    margin-top:0px;
+    padding-top: 10px;
+   }
+   .desc2{
+    max-width:20%;
+    height:0px;
+    margin-left: 80px;
+    margin-top:120px;
+   }
+   .bold1, .bold2{
+    color: orangered;
+   }
+   
+   .idea{
+    height: 300px;
+    width: 300px;
+   }
+   .button{
+    height: 50px;
+    width:80px;
+    margin-top: 100px;
+   }
+   .link{
+    margin-top: -450px;
+    margin-right: 1200px;
+   }
+   .menu{
+    margin-top:-50px;
+   }
+
+   .rightpane{
+    width: available;
+    height: available;
+    position: relative;
+    margin-left: 50%;
+    margin-right: 5%;
+    margin-top: -125px;
+   
+   }
+
+
+   .react {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    height: 10px;
+    animation-name: width-change;
+    animation-duration: 4s;
+    
+   }
+
+
+
+   .redux, .javascript, .html, .css, .python, .django{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    height: 10px;
+    animation-name: width-change;
+    animation-duration: 4s;
+   }
+  
+   .react td, .redux td, .javascript td, .html td, 
+   .css td, .python td, .django td {
+    border: 1px none #ddd;
+    padding: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: left;
+    color: white;
+    animation-name: transition;
+    animation-duration: 4s;
+  }
+
+   .react1 {
+    width:40%;
+    background-color: orangered;
+    padding-left:8px;
+   }
+
+   .react2{
+    width:60%;
+    background-color:gainsboro;
+    }
+
+   .react3 {
+    width: 25%;
+    text-align: right;
+    background-color: orangered;
+    padding:2px;
+    }
+
+    .rd1{
+    width:45%;
+    background-color: orangered;
+    padding-left:8px;
+    }
+    
+    .rd2{
+    width:55%;
+    background-color:gainsboro;
+    }
+    
+    .rd3 {
+    width:25%;
+    text-align: right;
+    background-color: orangered;
+    padding:2px;
+    }
+
+    .js1{
+    width: 55%;
+    background-color: orangered;
+    padding-left:8px;
+    }
+        
+    .js2{
+    width: 45%;
+    background-color:gainsboro;
+    }
+        
+    .js3 {
+    width:25%;
+    text-align: right;
+    background-color: orangered;
+    padding:2px;
+    }
+
+    .html1{
+    width:70%;
+    background-color: orangered;
+    padding-left:8px;
+    }
+            
+    .html2{
+    width:30%;
+    background-color:gainsboro;
+    }
+            
+    .html3 {
+    width:25%;
+    text-align: right;
+    background-color: orangered;
+    padding:2px;
+    }
+
+    .css1{
+    width:70%;
+    background-color: orangered;
+    padding-left:8px;
+    }
+            
+    .css2{
+    width:30%;
+    background-color:gainsboro;
+    }
+            
+    .css3 {
+    width:25%;
+    text-align: right;
+    background-color: orangered;
+    padding:2px;
+    }
+
+    .py1{
+    width:30%;
+    background-color: orangered;
+    padding-left:8px;
+    }
+            
+    .py2{
+    width:70%;
+    background-color:gainsboro;
+    }
+            
+    .py3 {
+    width:25%;
+    text-align: right;
+    background-color: orangered;
+    padding:2px;
+    }
+
+    .dj1{
+    width:30%;
+    background-color: orangered;
+    padding-left:8px;
+    }
+    
+    .dj2{
+    width:70%;
+    background-color:gainsboro;
+    }
+    
+    .dj3 {
+    width:25%;
+    text-align: right;
+    background-color: orangered;
+    padding:2px;
+    }
+  
+    .resume{
+     margin-top: 20px;
+     height:     30px;
+     width:      120px;
+     border-color: orangered;
+     border-radius: 6%;
+    }
+
+    .resume1{
+     color: orangered;
+     font-size: 15px;
+    }
+
+        
+    
+        
+    
+        
+    
+    
+
+}
+
+@keyframes name {
+    0%  { font-size: 0px }
+    25%  { font-size: 10px }
+    100% { font-size: 40px }
+
+}
+
+@keyframes transition {
+    from {background-color: orangered}
+    to {background-color:   orange}
+}
+
+@keyframes width-change {
+    from {width: 50%}
+    to   {width: 100%}
+}
+
+
+
+
