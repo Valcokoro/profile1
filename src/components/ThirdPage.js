@@ -9,7 +9,7 @@ const ThirdPage = () => {
 return <section className='projects'>
   <h2 className='section-head'>PROJECTS</h2>
   <div className='grid-container'>
-    <div className='grid-item1'>
+    <div className='grid-item'>
     <div className='grid-item1'>
      <div>
     <button className='btn-p1'>
@@ -21,7 +21,7 @@ return <section className='projects'>
     </div>
   </div>
 
-    <div className='grid-item2'>
+    <div className='grid-item'>
      <div className='grid-item2'>
      <button className='btn-p2'>
      <a href='https://lovely-peony-86cdfd.netlify.app/' 
@@ -32,7 +32,7 @@ return <section className='projects'>
     </div>
    </div>
 
-   <div className='grid-item3'>
+   <div className='grid-item'>
      <div className='grid-item3'>
      <button className='btn-p3'>
      <a href='https://astounding-sunburst-2e5bf2.netlify.app/' 
@@ -42,7 +42,7 @@ return <section className='projects'>
      </div>
    </div>
 
-   <div className='grid-item4'>
+   <div className='grid-item'>
      <div className='grid-item4'>
      <button className='btn-p4'>
      <a href='https://glittering-gecko-fb8cfd.netlify.app/' 

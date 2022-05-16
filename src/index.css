@@ -161,121 +161,213 @@
     }
     
     .js1 {
-        width:45%;
-        background-color: orangered;
-        padding-left:8px;
-       }
-       
-       .js2{
-       width: 55%;
-       background-color:gainsboro;
-       }
-       
-       .js3 {
-       width:25%;
-       text-align: right;
-       background-color: orangered;
-       padding:2px;
-       }
-       
-       .html1 {
-        width:50%;
-        background-color: orangered;
-        padding-left:8px;
-       }
-       
-       .html2{
-       width: 50%;
-       background-color:gainsboro;
-       }
-       
-       .html3 {
-       width:25%;
-       text-align: right;
-       background-color: orangered;
-       padding:2px;
-       }
-       
-       .css1 {
-        width:50%;
-        background-color: orangered;
-        padding-left:8px;
-       }
-       
-       .css2{
-       width: 50%;
-       background-color:gainsboro;
-       }
-       
-       .css3 {
-       width:25%;
-       text-align: right;
-       background-color: orangered;
-       padding:2px;
-       }
-
-       .py1 {
-        width:30%;
-        background-color: orangered;
-        padding-left:8px;
-       }
-       
-       .py2{
-       width: 70%;
-       background-color:gainsboro;
-       }
-       
-       .py3 {
-       width:25%;
-       text-align: right;
-       background-color: orangered;
-       padding:2px;
-       }
-       
-       .dj1 {
-        width:30%;
-        background-color: orangered;
-        padding-left:8px;
-       }
-       
-       .dj2{
-       width: 70%;
-       background-color:gainsboro;
-       }
-       
-       .dj3 {
-       width:25%;
-       text-align: right;
-       background-color: orangered;
-       padding:2px;
-       }
-
-       .resume{
-       margin-top: 50px;
-       height: 50px;
-       width:140px;
-       margin-left: 470px;
-       border-color: orangered;
-       border-radius: 6%;
-       }
-
-       .resume1{
-        color: orangered;
-        font-size: 20px;
+    width:45%;
+    background-color: orangered;
+    padding-left:8px;
     }
+       
+    .js2{
+    width: 55%;
+    background-color:gainsboro;
+    }
+       
+    .js3 {
+    width:25%;
+    text-align: right;
+    background-color: orangered;
+    padding:2px;
+    }
+       
+    .html1 {
+    width:50%;
+    background-color: orangered;
+    padding-left:8px;
+    }
+       
+    .html2{
+    width: 50%;
+    background-color:gainsboro;
+    }
+       
+    .html3 {
+    width:25%;
+    text-align: right;
+    background-color: orangered;
+    padding:2px;
+    }
+       
+    .css1 {
+    width:50%;
+    background-color: orangered;
+    padding-left:8px;
+    }
+       
+    .css2{
+    width: 50%;
+    background-color:gainsboro;
+    }
+       
+    .css3 {
+    width:25%;
+    text-align: right;
+    background-color: orangered;
+    padding:2px;
+    }
+
+    .py1 {
+    width:30%;
+    background-color: orangered;
+    padding-left:8px;
+    }
+       
+    .py2{
+    width: 70%;
+    background-color:gainsboro;
+    }
+       
+    .py3 {
+    width:25%;
+    text-align: right;
+    background-color: orangered;
+    padding:2px;
+    }
+       
+    .dj1 {
+    width:30%;
+    background-color: orangered;
+    padding-left:8px;
+    }
+       
+    .dj2{
+    width: 70%;
+    background-color:gainsboro;
+    }
+       
+    .dj3 {
+    width:25%;
+    text-align: right;
+    background-color: orangered;
+    padding:2px;
+    }
+
+    .resume{
+    margin-top: 50px;
+    height: 50px;
+    width:140px;
+    margin-left: 470px;
+    border-color: orangered;
+    border-radius: 6%;
+    }
+
+    .resume1{
+    color: orangered;
+    font-size: 20px;
+    }
+
+    .section-head{
+    color:white;
+    text-align: center;
+    }
+
+    .projects{
+    background-color: orangered;
+    height: 900px;
+    }
+
+    .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    }
+
+    .grid-item {
+    padding: 10px;
+    text-align: flex;
+    }
+
+    .grid-item4{
+    margin-top: -90px;
+    }
+      
+    .counter{
+    width: 600px;
+        
+    }
+
+    .btn-p1{
+    margin-left:40px;
+    height: 350px;
+    background-color: gray;
+    }
+
+    .count-app{
+    margin-top: 10px;
+    color: white;
+    background-color: gray;
+    }
+
+    .youtube{
+    background-color: gray;
+          
+    }
+  
+    .btn-p2{
+    height: 350px;
+    background-color: gray;
+    }
+        
+    .vid-streamer{
+    margin-top: 5px;
+    color: white;
+    }
+  
+      
+    .google{
+    background-color: gray;
+    }
+ 
+    .btn-p3{
+    margin-top: 10px;
+    margin-left:50px;
+    height: 350px;
+    background-color: gray;
+    }
+     
+    .g-clone{
+    margin-top: 10px;
+    color: white;
+    }
+
+    .translate{
+    background-color: gray;
+           
+    }
+   
+    .btn-p4{
+     height: 350px;
+     margin-left: 700px;
+     margin-top: -900px;
+     background-color: gray;
+    }
+        
+    .lang-trans{
+     color: white;
+     margin-top: 5px;
+    }
+
 
 }
    .motto{
-       font-size: 30px;
-       margin-top:60px;
+    font-size: 30px;
+    margin-top:60px;
 }
 
 
 
 @media(max-width: 780px){
    .first-section{
-       background-color: orangered;
-       height: 520px;
+    background-color: orangered;
+    height: 520px;
    }
    .name {
     font-size: 30px;
@@ -283,28 +375,28 @@
    }
 
     .slogan{
-       color:brown;
-       font-style: italic;
+     color:brown;
+     font-style: italic;
     }
 
    .mypics{
-       height:150px;
-       width:150px;
-       border-radius: 1000px;
-       margin-top: 30px;
-       margin-left: 120px;
+     height:150px;
+     width:150px;
+     border-radius: 1000px;
+     margin-top: 30px;
+     margin-left: 120px;
       
     
    }
    .second{
-       background-color:whitesmoke;
-       height:700px;
+     background-color:whitesmoke;
+     height:700px;
     
    }
    .stack{
-       color: orangered;
-       margin-left: 80px;
-       font-size: 20px;
+     color: orangered;
+     margin-left: 80px;
+     font-size: 20px;
        
    }
    .response{
