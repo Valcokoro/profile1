@@ -4,6 +4,8 @@ import FirstSection from './components/FirstSection';
 import SecondPage from './components/SecondPage';
 import ThirdPage from './components/ThirdPage';
 import Navbar from './components/Navbar/Navbar'
+import AOS from 'aos';
+AOS.init();
 
 
 const App = () => {

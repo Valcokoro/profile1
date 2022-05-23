@@ -3,8 +3,6 @@ import counter from '../resources/counter.png';
 import youtube from '../resources/youtube.png'
 import google from '../resources/google.png';
 import translate from '../resources/translate.png';
-import AOS from 'aos';
-AOS.init();
 
 
 
@@ -15,9 +13,8 @@ return <section className='projects'>
   <div className='grid-container'>
     <div className='grid-item'>
     <div className='grid-item1'
-     data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="3000"
+     data-aos="fade-right"
+     data-aos-duration="2500"
     >
      <div>
     <button className='btn-p1'>
@@ -30,7 +27,10 @@ return <section className='projects'>
   </div>
 
     <div className='grid-item'>
-     <div className='grid-item2'>
+     <div className='grid-item2'
+     data-aos="fade-left"
+     data-aos-duration="3000"
+     >
      <button className='btn-p2'>
      <a href='https://lovely-peony-86cdfd.netlify.app/' 
      className='project2'>
@@ -41,7 +41,10 @@ return <section className='projects'>
    </div>
 
    <div className='grid-item'>
-     <div className='grid-item3'>
+     <div className='grid-item3'
+     data-aos="fade-left"
+     data-aos-duration="2500"
+     >
      <button className='btn-p3'>
      <a href='https://astounding-sunburst-2e5bf2.netlify.app/' 
      className='project3'>
@@ -51,7 +54,10 @@ return <section className='projects'>
    </div>
 
    <div className='grid-item'>
-     <div className='grid-item4'>
+     <div className='grid-item4'
+     data-aos="fade-right"
+     data-aos-duration="3000"
+     >
      <button className='btn-p4'>
      <a href='https://glittering-gecko-fb8cfd.netlify.app/' 
      className='project4'>
