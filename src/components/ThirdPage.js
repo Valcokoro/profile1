@@ -13,8 +13,6 @@ return <section className='projects'>
   <div className='grid-container'>
     <div className='grid-item'>
     <div className='grid-item1'
-     data-aos="fade-right"
-     data-aos-duration="2500"
     >
      <div>
     <button className='btn-p1'>
