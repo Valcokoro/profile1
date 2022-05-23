@@ -1,16 +1,24 @@
-import React from 'react';
+import React, {useState} from 'react';
 import counter from '../resources/counter.png';
 import youtube from '../resources/youtube.png'
 import google from '../resources/google.png';
 import translate from '../resources/translate.png';
+import AOS from 'aos';
+AOS.init();
 
 
-const ThirdPage = () => {
+
+const ThirdPage = () =>{
+
 return <section className='projects'>
   <h2 className='section-head'>PROJECTS</h2>
   <div className='grid-container'>
     <div className='grid-item'>
-    <div className='grid-item1'>
+    <div className='grid-item1'
+     data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="3000"
+    >
      <div>
     <button className='btn-p1'>
     <a href='https://valcokoro.github.io/counter.github.io/' 
@@ -53,8 +61,9 @@ return <section className='projects'>
    </div>
    
  </section>
-
 }
+
+
 
 
 export default ThirdPage;

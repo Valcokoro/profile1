@@ -34,6 +34,13 @@
     display: none;
 }
 
+.v{
+    color: brown;
+    font-style:italic;
+    font-family: cursive;
+    font-size: 40px;
+}
+
 @media screen and (max-width: 780px){
     .small{
         display: flex;
@@ -80,5 +87,12 @@
         top: 15px;
         right: 25px;
 
+    }
+
+    .v{
+        color: brown;
+        font-style:italic;
+        font-family: cursive;
+        font-size: 30px;
     }
 }

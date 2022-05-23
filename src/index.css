@@ -284,6 +284,23 @@
     padding: 10px;
     text-align: flex;
     }
+/*
+    .grid-item1:hover{
+        transform:scale(1.05);
+    }
+
+    .grid-item2:hover{
+        transform:scale(1.05);
+    }
+
+    .grid-item3:hover{
+        transform:scale(1.05);
+    }
+
+    .grid-item4:hover{
+        transform:scale(1.03);
+    }
+*/
 
     .grid-item4{
     margin-top: -90px;
