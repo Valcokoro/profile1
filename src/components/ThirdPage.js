@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import counter from '../resources/counter.png';
 import youtube from '../resources/youtube.png'
 import google from '../resources/google.png';
