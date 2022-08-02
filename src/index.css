@@ -640,16 +640,16 @@
 
     .projects{
         background-color: orangered;
-        height: 800px;
+        height: 1000px;
     }
 
     .liveizy{
         width: 300px;
-        
+
     }
 
     .btn-p1{
-      margin-left:40px;
+      margin-left:70px;
       height: 180px;
       background-color: gray;
     }
@@ -667,8 +667,9 @@
     }
 
     .btn-p2{
-      margin-top: 20px;
-      margin-left:40px;
+      position: absolute;
+      margin-top: 380px;
+      margin-left: -390px;
       height: 150px;
       background-color: gray;
     }
@@ -683,8 +684,8 @@
     }
  
     .btn-p3{
-        margin-top: 20px;
-        margin-left:40px;
+        margin-top: -10px;
+        margin-left:80px;
         height: 150px;
         background-color: gray;
       }
@@ -700,8 +701,8 @@
     }
     
     .btn-p4{
-        margin-top: 20px;
-        margin-left:40px;
+        margin-top: 270px;
+        margin-left:75px;
         height: 150px;
         background-color: gray;
       }
