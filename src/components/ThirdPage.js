@@ -1,8 +1,8 @@
 import React from 'react';
-import counter from '../resources/counter.png';
+import liveizy from '../resources/liveizy.png';
 import youtube from '../resources/youtube.png'
-import google from '../resources/google.png';
-import translate from '../resources/translate.png';
+import prepschool from '../resources/prepschool.png';
+import movies from '../resources/movies.png';
 
 
 
@@ -16,14 +16,13 @@ return <section className='projects'>
     >
      <div>
     <button className='btn-p1'>
-    <a href='https://valcokoro.github.io/counter.github.io/' 
+    <a href='https://liveizy.com' 
     className='project1'>
-    <img src={counter} className='counter' alt='counter' align="counter"/>
-    </a><h4 className='count-app'>Counter App</h4></button>
+    <img src={liveizy} className='liveizy' alt='liveizy' align="liveizy"/>
+    </a><h4 className='liveizy-app'>Liveizy</h4></button>
     </div>
     </div>
   </div>
-
     <div className='grid-item'>
      <div className='grid-item2'
      data-aos="fade-left"
@@ -44,10 +43,10 @@ return <section className='projects'>
      data-aos-duration="2500"
      >
      <button className='btn-p3'>
-     <a href='https://astounding-sunburst-2e5bf2.netlify.app/' 
+     <a href='https://prepschoolapp.netlify.app/' 
      className='project3'>
-     <img src={google} className='google' alt='google' align="google"/>
-     </a> <h4 className='g-clone'>Google Clone</h4></button>
+     <img src={prepschool} className='prepschool' alt='prepschool' align="prepschool"/>
+     </a> <h4 className='prepschool-app'>Prepschool</h4></button>
      </div>
    </div>
 
@@ -57,10 +56,10 @@ return <section className='projects'>
      data-aos-duration="3000"
      >
      <button className='btn-p4'>
-     <a href='https://glittering-gecko-fb8cfd.netlify.app/' 
+     <a href='https://search-movies-pearl.vercel.app/' 
      className='project4'>
-     <img src={translate} className='translate' alt='translate' align="translate"/>
-     </a> <h4 className='lang-trans'>Language Translate</h4></button>
+     <img src={movies} className='movies' alt='movies' align="movies"/>
+     </a> <h4 className='movies-app'>Movies Search</h4></button>
      </div>
    </div>
    

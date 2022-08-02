@@ -284,29 +284,12 @@
     padding: 10px;
     text-align: flex;
     }
-/*
-    .grid-item1:hover{
-        transform:scale(1.05);
-    }
-
-    .grid-item2:hover{
-        transform:scale(1.05);
-    }
-
-    .grid-item3:hover{
-        transform:scale(1.05);
-    }
-
-    .grid-item4:hover{
-        transform:scale(1.03);
-    }
-*/
 
     .grid-item4{
     margin-top: -90px;
     }
       
-    .counter{
+    .liveizy{
     width: 600px;
         
     }
@@ -317,7 +300,7 @@
     background-color: gray;
     }
 
-    .count-app{
+    .liveizy-app{
     margin-top: 10px;
     color: white;
     background-color: gray;
@@ -339,7 +322,7 @@
     }
   
       
-    .google{
+    .prepschool{
     background-color: gray;
     }
  
@@ -350,12 +333,12 @@
     background-color: gray;
     }
      
-    .g-clone{
+    .prepschool-app{
     margin-top: 10px;
     color: white;
     }
 
-    .translate{
+    .movies{
     background-color: gray;
            
     }
@@ -367,7 +350,7 @@
      background-color: gray;
     }
         
-    .lang-trans{
+    .movies-app{
      color: white;
      margin-top: 5px;
     }
@@ -660,7 +643,7 @@
         height: 800px;
     }
 
-    .counter{
+    .liveizy{
         width: 300px;
         
     }
@@ -671,7 +654,7 @@
       background-color: gray;
     }
 
-    .count-app{
+    .liveizy-app{
         margin-top: 10px;
         color: white;
         background-color: gray;
@@ -694,7 +677,7 @@
         color: white;
     }
 
-    .google{
+    .prepschool{
         width: 300px;
         height:100px;
     }
@@ -706,12 +689,12 @@
         background-color: gray;
       }
      
-    .g-clone{
+    .prepschool-app{
         margin-top: 10px;
         color: white;
     }
 
-    .translate{
+    .movies{
         width: 300px;
         height:100px;
     }
@@ -722,7 +705,7 @@
         height: 150px;
         background-color: gray;
       }
-    .lang-trans{
+    .movies-app{
         margin-top: 10px;
         color: white;
     }
