@@ -12,7 +12,7 @@ const SecondPage = () =>{
         <img src={mypics} className='mypics' alt='mypics'/>
     </div>
     <div className='leftpane'>
-        <h1 className='stack'>Frontend Software Engineer</h1>
+        <h1 className='stack'>Frontend Developer</h1>
         <aside>
         <img src={responsive} className='response' alt='response' align="left"/>
         <p className='desc1'><b className="bold1">Responsive:</b> My layouts will work on any device, big or small.</p>
