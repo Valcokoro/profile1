@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from './Navbar/Navbar';
 import mypics from '../resources/mypics.jpeg';
 import responsive from '../resources/responsive.svg'
 import dynamic from '../resources/dynamic.svg';
@@ -8,6 +9,7 @@ import resume from '../resources/resume.pdf';
 const SecondPage = () =>{
     return (
     <section className='second'>
+    <Navbar />
     <div className='pics'>
         <img src={mypics} className='mypics' alt='mypics'/>
     </div>

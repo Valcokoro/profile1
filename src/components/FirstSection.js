@@ -1,43 +1,14 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import Container from '@mui/material/Container';
+import HomeNavbar from './Navbar/HomeNavbar';
+import Typewriter from 'typewriter-effect';
 import idea from '../resources/idea.jpg';
 //import menu from '../resources/menu.svg';
 
-
-
-
-
-
-
 const FirstSection = () =>{
-    
-  const[slogan, setSlogan] = useState('');
-
-  
-   
-  useEffect(() =>{
-    var i = 0;
-    var txt = " Bring Your Ideas to Life."
-    
-  
-    const motto = () => {
-      if(i < txt.length){
-        document.querySelector(".slogan").innerHTML += txt.charAt(i);
-        i++;
-        setTimeout(motto, 50);
-      } 
-    
-    };
-
-    setSlogan(motto);
-    
-
-    
-      
-       
-   }, [])
     return (
     <section className='first-section' >
+      <HomeNavbar/>
       <Container fixed>
        <div 
         className='ui items'
@@ -53,8 +24,17 @@ const FirstSection = () =>{
         </div>
     
         <div className='motto' >
-         {slogan}
-         <p className='slogan'></p>
+         <p className='slogan'>
+         <Typewriter
+              onInit={(typewriter) => {
+                  typewriter.typeString("Bring Your Ideas to Life.")
+                  .pauseFor(2000)
+                  .deleteAll()
+                  .typeString("Let's Build Your Dream!")
+                  .start();
+              }}
+          />
+         </p>
         </div>
         <div>
         <img src={idea} className='idea' alt='idea' align="center"/>

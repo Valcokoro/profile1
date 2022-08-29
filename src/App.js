@@ -12,7 +12,6 @@ const App = () => {
     return (
          <div>
          <BrowserRouter >
-         <Navbar />
             <div>
             <Switch>
             <Route path='/' exact component={FirstSection}/>

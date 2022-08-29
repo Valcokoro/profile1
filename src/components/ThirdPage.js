@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from './Navbar/Navbar';
 import liveizy from '../resources/liveizy.png';
 import youtube from '../resources/youtube.png'
 import prepschool from '../resources/prepschool.png';
@@ -9,12 +10,16 @@ import movies from '../resources/movies.png';
 const ThirdPage = () =>{
 
 return <section className='projects'>
+  <Navbar/>
   <h2 className='section-head'>PROJECTS</h2>
   <div className='grid-container'>
     <div className='grid-item'>
     <div className='grid-item1'
     >
-     <div>
+     <div
+      data-aos="fade-right"
+      data-aos-duration="2500"
+     >
     <button className='btn-p1'>
     <a href='https://liveizy.com' 
     className='project1'>
@@ -26,7 +31,7 @@ return <section className='projects'>
     <div className='grid-item'>
      <div className='grid-item2'
      data-aos="fade-left"
-     data-aos-duration="3000"
+     data-aos-duration="2500"
      >
      <button className='btn-p2'>
      <a href='https://lovely-peony-86cdfd.netlify.app/' 
@@ -53,7 +58,7 @@ return <section className='projects'>
    <div className='grid-item'>
      <div className='grid-item4'
      data-aos="fade-right"
-     data-aos-duration="3000"
+     data-aos-duration="2500"
      >
      <button className='btn-p4'>
      <a href='https://search-movies-pearl.vercel.app/' 
@@ -62,7 +67,6 @@ return <section className='projects'>
      </a> <h4 className='movies-app'>Movies Search</h4></button>
      </div>
    </div>
-   
  </section>
 }
 

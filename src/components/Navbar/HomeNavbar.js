@@ -7,18 +7,18 @@ import './Navbar.css';
 const Navbar = () => {
     const [isMobile, setIsMobile] = useState(false);
    return (
-       <nav className="navbar">
+       <nav className="home-navbar">
            <img src={logo} className='logo' alt='logo' />
            <ul className={isMobile ? 'nav-links-mobile' : 'nav-links'}
                onClick = {() => setIsMobile(false)}
            >
-               <Link to='/' className='home'>
+               <Link to='/' className='h-home'>
                    <li>Home</li>
                </Link>
-               <Link to='/profile' className='profile'>
+               <Link to='/profile' className='h-profile'>
                    <li>Profile</li>
                </Link>
-               <Link to='/portfolio' className='portfolio'>
+               <Link to='/portfolio' className='h-portfolio'>
                    <li>Projects</li>
                </Link>
                

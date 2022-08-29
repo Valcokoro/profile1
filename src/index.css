@@ -1,7 +1,7 @@
  @media(min-width: 700px){
     .name {
        font-size: 40px;
-       color: gainsboro;
+       color: brown;
        margin-top: 500px;
        
     }
@@ -22,7 +22,7 @@
     }
 
     .first-section{
-        background-color: orangered;
+        background-color: #FFFF;
         height: 700px;
     }
 
@@ -40,7 +40,7 @@
        height:600px;
    }
    .stack{
-       color:orangered;
+       color: brown;
        margin-left: 120px;
    }
    .response{
@@ -70,7 +70,7 @@
     padding-top: 10px;
    }
    .bold1, .bold2{
-    color:orangered;
+    color:brown;
    }
    .button{
        height: 40px;
@@ -126,7 +126,7 @@
 
   .react1 {
     width:40%;
-    background-color: orangered;
+    background-color: brown;
     padding-left:8px;
    }
 
@@ -138,13 +138,13 @@
    .react3 {
     width:25%;
     text-align: right;
-    background-color: orangered;
+    background-color: brown;
     padding:2px;
     }
 
     .rd1 {
      width:40%;
-     background-color: orangered;
+     background-color: brown;
      padding-left:8px;
     }
     
@@ -156,13 +156,13 @@
     .rd3 {
     width:25%;
     text-align: right;
-    background-color: orangered;
+    background-color: brown;
     padding:2px;
     }
     
     .js1 {
     width:45%;
-    background-color: orangered;
+    background-color: brown;
     padding-left:8px;
     }
        
@@ -174,13 +174,13 @@
     .js3 {
     width:25%;
     text-align: right;
-    background-color: orangered;
+    background-color: brown;
     padding:2px;
     }
        
     .html1 {
     width:50%;
-    background-color: orangered;
+    background-color: brown;
     padding-left:8px;
     }
        
@@ -192,13 +192,13 @@
     .html3 {
     width:25%;
     text-align: right;
-    background-color: orangered;
+    background-color: brown;
     padding:2px;
     }
        
     .css1 {
     width:50%;
-    background-color: orangered;
+    background-color: brown;
     padding-left:8px;
     }
        
@@ -210,13 +210,13 @@
     .css3 {
     width:25%;
     text-align: right;
-    background-color: orangered;
+    background-color: brown;
     padding:2px;
     }
 
     .py1 {
     width:30%;
-    background-color: orangered;
+    background-color: brown;
     padding-left:8px;
     }
        
@@ -228,13 +228,13 @@
     .py3 {
     width:25%;
     text-align: right;
-    background-color: orangered;
+    background-color: brown;
     padding:2px;
     }
        
     .dj1 {
     width:30%;
-    background-color: orangered;
+    background-color: brown;
     padding-left:8px;
     }
        
@@ -246,7 +246,7 @@
     .dj3 {
     width:25%;
     text-align: right;
-    background-color: orangered;
+    background-color: brown;
     padding:2px;
     }
 
@@ -255,12 +255,12 @@
     height: 50px;
     width:140px;
     margin-left: 470px;
-    border-color: orangered;
+    border-color: brown;
     border-radius: 6%;
     }
 
     .resume1{
-    color: orangered;
+    color: brown;
     font-size: 20px;
     }
 
@@ -270,7 +270,7 @@
     }
 
     .projects{
-    background-color: orangered;
+    background-color: brown;
     height: 900px;
     }
 
@@ -1073,8 +1073,8 @@
 }
 
 @keyframes transition {
-    from {background-color: orangered}
-    to {background-color:   orange}
+    from {background-color: brown}
+    to {background-color:   burlywood}
 }
 
 @keyframes width-change {
