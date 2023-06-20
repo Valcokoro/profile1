@@ -3,7 +3,6 @@
        font-size: 40px;
        color: brown;
        margin-top: 500px;
-       
     }
    
     .motto{
@@ -13,7 +12,6 @@
         font-size: 60px;
         font-style: italic;
         color: brown;
-        
     }
 
     .idea{
@@ -37,7 +35,7 @@
     }
     .second{
        background-color:whitesmoke;
-       height:600px;
+       height:700px;
    }
    .stack{
        color: brown;
@@ -278,6 +276,7 @@
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 10px;
+    height: 300px;
     }
 
     .grid-item {
@@ -285,13 +284,16 @@
     text-align: flex;
     }
 
+    .grid-item3{
+      margin-top: 65px;
+      }
+
     .grid-item4{
-    margin-top: -90px;
+    margin-top: -85px;
     }
       
     .liveizy{
     width: 600px;
-        
     }
 
     .btn-p1{
@@ -306,9 +308,9 @@
     background-color: gray;
     }
 
-    .youtube{
+    .zms{
     background-color: gray;
-          
+    width: 600px;
     }
   
     .btn-p2{
@@ -316,7 +318,7 @@
     background-color: gray;
     }
         
-    .vid-streamer{
+    .zeromarketingsolution{
     margin-top: 5px;
     color: white;
     }
@@ -338,8 +340,9 @@
     color: white;
     }
 
-    .movies{
+    .babyknitting{
     background-color: gray;
+    width: 600px
            
     }
    
@@ -660,7 +663,7 @@
             background-color: gray;
         }
     
-        .youtube{
+        .zms{
           width: 300px;
           height:100px;
             
@@ -733,8 +736,6 @@
      border-radius: 1000px;
      margin-top: 30px;
      margin-left: 120px;
-      
-    
    }
    .second{
      background-color:whitesmoke;
@@ -993,7 +994,6 @@
 
     .liveizy{
         width: 300px;
-
     }
 
     .btn-p1{
@@ -1008,7 +1008,7 @@
         background-color: gray;
     }
 
-    .youtube{
+    .zms{
       width: 300px;
       height:100px;
     }
@@ -1020,7 +1020,7 @@
       height: 150px;
       background-color: gray;
     }
-    .vid-streamer{
+    .zeromarketingsolution{
         margin-top: 10px;
         color: white;
     }
@@ -1042,7 +1042,7 @@
         color: white;
     }
 
-    .movies{
+    .babyknitting{
         width: 300px;
         height:100px;
     }
